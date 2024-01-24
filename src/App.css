@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2c3e50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ecf0f1;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center-container {
+  width: 80%;
+  max-width: 500px;
+  background: linear-gradient(to right, #3498db, #2c3e50);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.app-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.input-box-todo {
+  flex: 1;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid #3498db;
+  outline: none;
+  font-size: 1rem;
+  color: #ecf0f1;
+  background-color: transparent;
+  transition: border-bottom-color 0.3s;
+}
+
+.input-box-todo::placeholder {
+  color: #bdc3c7;
+}
+
+.input-box-todo:focus {
+  border-bottom-color: #1abc9c;
+}
+
+.add-btn {
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(to right, #2ecc71, #27ae60);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.add-btn:active {
+  background: linear-gradient(to right, #27ae60, #2ecc71);
+  transform: scale(0.9);
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list-item {
+  width: 100%;
+  padding: 15px;
+  margin: 20px 0;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(to right, #3498db, #2c3e50);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.list-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+.list-item p {
+  margin: 0;
+  flex: 1;
+  color: #fff;
+}
+
+.icons i {
+  margin: 0 8px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #e74c3c;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.icons i:hover {
+  color: #c0392b;
+  transform: scale(1.2);
+}
