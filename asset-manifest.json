@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Verve-List/static/css/main.4e470e77.css",
+    "main.js": "/React-Verve-List/static/js/main.6071f026.js",
+    "static/js/787.b8fa26a9.chunk.js": "/React-Verve-List/static/js/787.b8fa26a9.chunk.js",
+    "index.html": "/React-Verve-List/index.html",
+    "main.4e470e77.css.map": "/React-Verve-List/static/css/main.4e470e77.css.map",
+    "main.6071f026.js.map": "/React-Verve-List/static/js/main.6071f026.js.map",
+    "787.b8fa26a9.chunk.js.map": "/React-Verve-List/static/js/787.b8fa26a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e470e77.css",
+    "static/js/main.6071f026.js"
+  ]
+}
