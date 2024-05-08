@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Fahad12405.github.io/React-Verve-List" ,
  
   "name": "todoapp",
  
@@ -35,6 +36,8 @@
  
    
   "start": "react-scripts start",
+  "predeploy": "npm run build" ,
+  "deploy": "gh-pages -d build",
  
    
   "build": "react-scripts build",
